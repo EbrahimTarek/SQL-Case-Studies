@@ -63,12 +63,12 @@ select * from newtable
 	select * from newtable
 
 -- join hotels & marketsegment & mealcost
-		select h.hotel,h.market_segment,h.persons,h.arrival_date,h.reservation_date,h.market_segment,m.Discount,h.revenue,h.meal
-		,k.Cost,h.agent
+		-- join hotels & marketsegment & mealcost
+		select * into  totalhotel
 		from newtable  h
 		left join marketsegment m
-		on h.market_segment = m.market_segment
+		on h.market_segment = m.marketo
 		left join mealcost k
-		on k.meal = h.meal
+		on k.melo = h.meal
 		
 
