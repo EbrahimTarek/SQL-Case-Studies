@@ -1,4 +1,4 @@
---1.create Tables
+#create Tables
 create table Sales (cutomer_id int,order_date Date,product_id int )
 select * from Sales
 alter table Sales
