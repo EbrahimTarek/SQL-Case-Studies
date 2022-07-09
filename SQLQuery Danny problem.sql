@@ -42,6 +42,7 @@ VALUES
 select * from Sales
 select * from menu
 select * from members
+
 --2.start data cleaning
 create view total_table
 as 
