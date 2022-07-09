@@ -5,7 +5,7 @@ alter table Sales
 alter column cutomer_id varchar(1)
 insert into Sales
 values
-('A', '2021-01-01', '1'),
+  ('A', '2021-01-01', '1'),
   ('A', '2021-01-01', '2'),
   ('A', '2021-01-07', '2'),
   ('A', '2021-01-10', '3'),
